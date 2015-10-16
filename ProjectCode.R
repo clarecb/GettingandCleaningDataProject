@@ -58,7 +58,7 @@ names(MeanStdData) = gsub("BodyBody", "Body", names(MeanStdData))
 FinalData = MeanStdData
 
 ##Creates second tidy data set with average of each variable for each activity and subject
-FinalDataMeans = aggregate(. ~Subject + Activity, FinalDataSet, FUN = mean)
+FinalDataMeans = aggregate(. ~Subject + Activity, FinalData, FUN = mean)
 
 ##Saves files
 write.table(FinalData, file = "FinalData.txt",row.name=FALSE)
