@@ -4,6 +4,7 @@ output: html_document
 ---
 
 The ProjectCode.R file loads the following files from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones:
+
 1. features.txt
 2. activity_labels.txt
 3. test/subject_test.txt
@@ -17,6 +18,7 @@ This data contains accelerometer and gyroscope readings from participants doing 
 The code combines the test and training date into one dataset. The code then subsets the dataset to keep only the variables relatated to mean and standard deviation as well as the subject identification number and type of activity. 
 
 The activity types are as follows:
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
