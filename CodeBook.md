@@ -28,7 +28,7 @@ The activity types are as follows:
 
 The code creates a tidy data set that finds the average of the accelerometer and gyroscope readings for each of the subjects on each of the activities.
 
-The following variables are the variables found in the final data set.
+The following variables are the variables found in the final data set.Gyroscope readings are in unites os radians/second, and accelerometer units are in standard gravite units g.
 
 1. "Subject"                                                  
 2. "Activity"                                                 
